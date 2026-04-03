@@ -1,0 +1,21 @@
+name: deepauto
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - networkx
+  - pydantic>=2,<3
+  - python-dotenv
+  - pytest
+  - pillow
+  - pip:
+      - easyocr
+      - opencv-python-headless
+      - langgraph
+      - langchain-ollama
+      - langchain-openai
+      - langchain-anthropic
+      - openai
+      - anthropic

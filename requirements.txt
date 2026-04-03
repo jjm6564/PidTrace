@@ -1,0 +1,13 @@
+anthropic
+easyocr
+langchain-anthropic
+langchain-ollama
+langchain-openai
+langgraph
+networkx
+numpy
+opencv-python-headless
+openai
+pydantic>=2,<3
+pytest
+python-dotenv
