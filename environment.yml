@@ -1,4 +1,4 @@
-name: deepauto
+name: PidTrace
 channels:
   - conda-forge
 dependencies:
