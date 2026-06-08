@@ -1,6 +1,5 @@
-# deepauto
-
-`deepauto`는 P&ID 도면 이미지에서 특정 배관의 시작점(FROM)과 끝점(TO)을 찾기 위한 프로토타입 프로젝트입니다.
+# PidTrace
+본 프로젝트는 P&ID 도면 이미지에서 특정 배관의 시작점(FROM)과 끝점(TO)을 찾기 위한 프로토타입 프로젝트입니다. VLM(Vision-Language Model)과 이미지 처리 파이프라인을 결합하여 자연어 질문 기반으로 배관 경로를 추적합니다.
 
 ## 설정
 
@@ -34,14 +33,14 @@ OUTPUT_DIR=data/output
 ### 1. conda 환경 활성화
 
 ```bash
-conda activate deepauto
+conda activate `프로젝트명`
 ```
 
 환경이 아직 없다면:
 
 ```bash
 conda env create -f environment.yml
-conda activate deepauto
+conda activate `프로젝트명`
 ```
 
 ### 2. 의존성 설치
